@@ -1,4 +1,4 @@
-package controlFlowStatements;
+package array;
 
 import javax.swing.JOptionPane;
 
@@ -8,7 +8,7 @@ public class MathRandom {
 		int nums;
 		String text="Math.random generated numbers: \n";
 		for(int i=0; i<20; i++) {
-			nums=(int)(2+(Math.random())*5);
+			nums=2+(int)(Math.random()*3);
 			text=text+nums+" \n";
 		}
 		
