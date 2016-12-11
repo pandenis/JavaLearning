@@ -1,6 +1,6 @@
 
 package basic;
-
+//http://pr0java.blogspot.co.il/2015/04/java-boolean.html
 public class BooleanTypes {
 	public static void main(String[] args){
 		boolean a=true;
@@ -11,6 +11,7 @@ public class BooleanTypes {
 		System.out.println("!a = b "+(!a==b));
 		System.out.println("a&b = "+ (a&b));
 		System.out.println("a|b = "+(a|b));
+		
 	}
 
 }
