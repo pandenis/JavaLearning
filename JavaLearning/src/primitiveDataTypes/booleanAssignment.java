@@ -1,9 +1,15 @@
 package primitiveDataTypes;
 
+import javax.swing.JOptionPane;
+
 public class booleanAssignment {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		boolean x=true;
+		boolean y=false;
+		//&=
+		x&=y;
+		JOptionPane.showMessageDialog(null, "After x&=y x="+x);
 
 	}
 
