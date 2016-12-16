@@ -10,6 +10,16 @@ public class booleanAssignment {
 		//&=
 		x&=y;
 		JOptionPane.showMessageDialog(null, "After x&=y x="+x);
+		//|=
+		x=true;
+		y=false;
+		x|=y;
+		JOptionPane.showMessageDialog(null, "After x|=y x="+x);
+		//^=
+		x=true;
+		y=false;
+		x^=y;
+		JOptionPane.showMessageDialog(null, "After x^=y x="+x);
 
 	}
 
