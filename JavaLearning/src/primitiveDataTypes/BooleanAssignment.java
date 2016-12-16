@@ -2,7 +2,7 @@ package primitiveDataTypes;
 
 import javax.swing.JOptionPane;
 
-public class booleanAssignment {
+public class BooleanAssignment {
 
 	public static void main(String[] args) {
 		boolean x=true;
