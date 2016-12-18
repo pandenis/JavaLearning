@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Char {
 
 	public static void main(String[] args) {
-		char shin ='×©';
+		char shin ='ù';
 		JOptionPane.showMessageDialog(null, "char: "+shin);
 		char armenian='\u090B';
 		JOptionPane.showMessageDialog(null, armenian);
