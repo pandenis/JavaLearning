@@ -9,7 +9,27 @@ public class IntegralDataTypes {
 		byte a, b;
 		a=5;
 		b=3;
-		System.out.println("a="+a+"b="+b);
+		System.out.println("a="+a+"  b="+b);
+		System.out.println("a+b="+(a+b));
+		System.out.println("a-b="+(a-b));
+		System.out.println("a*b="+(a*b));
+		System.out.println("a/b="+(a/b));
+		System.out.println("a%b="+(a%b));
+		System.out.println("Same like a-(a/b)*b="+(a-(a/b)*b));
+		System.out.println();
+		System.out.println("a="+a+"  b="+b);
+		System.out.println("Post-increment of a++. Now a="+a++);
+		System.out.println("And now a="+a);
+		System.out.println("Post-decrement of a--. Now a="+a--);
+		System.out.println("And now a="+a);
+		System.out.println("Prefix incriment ++a. Now a="+(++a));
+		System.out.println("Prefix decriment --a. Now a="+(--a));
+		a+=b; //Equal to a=a+b
+		System.out.println("After a+=b	a="+a);
+		a-=b; //Equal to a=a-b
+		System.out.println("After a-=b	a="+a);
+
+
 	}
 
 }
