@@ -23,6 +23,12 @@ public class TypeConversion01 {
 		f=c;
 		d=c;
 		System.out.println("c="+c+"	i="+i+"	l="+l+"	f="+f+"	d="+d);
+		System.out.println("\nConversation with loss of precission");
+		i=0b11_1111_1111_1111_1111_1111_1111;
+		f=i;
+		System.out.println("i="+i);
+		System.out.println("f="+f);
+		
 	}
 
 }
