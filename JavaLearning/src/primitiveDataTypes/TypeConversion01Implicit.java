@@ -1,6 +1,6 @@
 package primitiveDataTypes;
 
-public class TypeConversion01 {
+public class TypeConversion01Implicit{
 
 	public static void main(String[] args) {
 		byte b=127;
